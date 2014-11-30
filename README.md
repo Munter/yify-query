@@ -4,7 +4,7 @@ yify-query
 [![Build Status](https://travis-ci.org/Munter/yify-query.png?branch=master)](https://travis-ci.org/Munter/yify-query)
 [![Dependency Status](https://david-dm.org/Munter/yify-query.png)](https://david-dm.org/Munter/yify-query)
 
-Find torrent magnet links from the yify database directly from the command line
+Find torrent magnet links from the yify database directly from the command line or in your node modules
 
 
 Command line usage
