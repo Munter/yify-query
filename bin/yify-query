@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var yifyQuery = require('../lib');
+var query = process.argv.slice(2).join(' ');
+
+yifyQuery(query, function (err, result) {
+  if (err) { throw err; }
+
+  console.log(result.TorrentMagnetUrl);
+});

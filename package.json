@@ -1,0 +1,38 @@
+{
+  "name": "yify-query",
+  "version": "0.0.0",
+  "description": "Command line tool and lib to query and select torrent magnet links from yify",
+  "main": "lib/index",
+  "scripts": {
+    "test": "jshint . bin/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Munter/yify-query.git"
+  },
+  "keywords": [
+    "cli",
+    "torrent",
+    "magnet",
+    "yify"
+  ],
+  "author": "Peter Müller <munter@fumle.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Munter/yify-query/issues"
+  },
+  "homepage": "https://github.com/Munter/yify-query",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": "bin/yify-query",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "inquirer": "^0.8.0",
+    "request": "^2.47.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.10"
+  }
+}
