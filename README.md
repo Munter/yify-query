@@ -1,8 +1,8 @@
 yify-query
 ==========
-[![NPM version](https://badge.fury.io/js/yify-query.png)](http://badge.fury.io/js/yify-query)
-[![Build Status](https://travis-ci.org/Munter/yify-query.png?branch=master)](https://travis-ci.org/Munter/yify-query)
-[![Dependency Status](https://david-dm.org/Munter/yify-query.png)](https://david-dm.org/Munter/yify-query)
+[![NPM version](https://badge.fury.io/js/yify-query.svg)](http://badge.fury.io/js/yify-query)
+[![Build Status](https://travis-ci.org/Munter/yify-query.svg?branch=master)](https://travis-ci.org/Munter/yify-query)
+[![Dependency Status](https://david-dm.org/Munter/yify-query.svg)](https://david-dm.org/Munter/yify-query)
 
 Find torrent magnet links from the yify database directly from the command line or in your node modules
 
