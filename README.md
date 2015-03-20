@@ -12,7 +12,7 @@ Command line usage
 
 ```
 $ npm install -g yify-query
-$ yify-query star wars
+$ yify-query big hero 6
 ```
 
 
@@ -22,12 +22,23 @@ Programmatic usage
 ``` javascript
 var query = require('yify-query');
 
-query('star wars', function (error, result) {
-  console.log(result.TorrentMagnetUrl);
+query('big hero 6', function (error, result) {
+  // result = {
+  //   "url": "https://yts.to/torrent/download/....torrent",
+  //   "hash": "...",
+  //   "quality": "720p",
+  //   "seeds": 8754,
+  //   "peers": 1873,
+  //   "size": "810.17 MB",
+  //   "size_bytes": 849526274,
+  //   "date_uploaded": "2015-02-05 10:50:46",
+  //   "date_uploaded_unix": 1423086646,
+  //   "magnet": "magnet:?xt=urn:btih:...",
+  //   "title_long": "Big Hero 6 (2014)",
+  //   "title": "Big Hero 6"
+  // }
 });
 ```
-
-The full documentation for the result is desribed here: https://yts.re/api#listDocs
 
 
 License
