@@ -1,6 +1,6 @@
 {
   "name": "yify-query",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Command line tool and lib to query and select torrent magnet links from yify",
   "main": "lib/index",
   "scripts": {
