@@ -6,5 +6,5 @@ var query = process.argv.slice(2).join(' ');
 yifyQuery(query, function (err, result) {
   if (err) { throw err; }
 
-  console.log(result.TorrentMagnetUrl);
+  console.log(result.magnet);
 });
