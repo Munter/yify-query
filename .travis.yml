@@ -4,6 +4,6 @@ cache:
   directories:
   - node_modules
 node_js:
-  - '0.10'
+  - 6
 
 script: "npm run-script test"
