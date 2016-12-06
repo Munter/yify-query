@@ -29,7 +29,7 @@
   "bin": "bin/yify-query",
   "dependencies": {
     "chalk": "^1.1.3",
-    "inquirer": "^1.0.0",
+    "inquirer": "^2.0.0",
     "request": "^2.70.0",
     "unexpected": "^10.13.0"
   },
